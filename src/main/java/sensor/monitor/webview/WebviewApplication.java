@@ -1,0 +1,13 @@
+package sensor.monitor.webview;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class WebviewApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(WebviewApplication.class, args);
+	}
+
+}
